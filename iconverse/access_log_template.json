@@ -1,0 +1,17 @@
+{
+  "index_patterns": ["iconverse.access.logs*"],
+  "settings": {
+    "number_of_shards": 1
+  },
+  "mappings": {
+    "_doc": {
+      "_source": { "enabled": false },
+      "properties": {
+        "type": { "type": "keyword" },
+        "location_array": { "type": "geo_point" },
+        "location_properties": { "type": "geo_point" },
+        "location_string": { "type": "geo_point" }
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "conversation": {
+    "properties": {
+      "conversation": {
+        "type": "keyword"
+      },
+      "ref": {
+        "type": "keyword"
+      },
+      "areas": {
+        "type": "keyword"
+      },
+      "topics": {
+        "type": "keyword"
+      },
+      "channels": {
+        "type": "keyword"
+      },
+      "inputTypes": {
+        "type": "keyword"
+      },
+      "satisfaction": {
+        "type": "integer"
+      },
+      "saveCall": {
+        "type": "boolean"
+      },
+      "saveCallComment": {
+        "type": "keyword"
+      },
+      "feedback": {
+        "type": "keyword"
+      },
+      "start": {
+        "type": "date"
+      },
+      "end": {
+        "type": "date"
+      },
+      "validity": {
+        "type": "keyword"
+      },
+      "status": {
+        "type": "keyword"
+      },
+      "prompts" : {
+        "properties" : {
+          "exp" : {
+            "type": "text"
+          },
+          "psid" : {
+            "type": "text"
+          }
+        }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,21 @@
+{
+  "pattern": {
+    "properties": {
+      "enquiry": {
+        "type": "keyword"
+      },
+      "status": {
+        "type": "keyword"
+      },
+      "text": {
+        "type": "text"
+      },
+      "elements": {
+        "type": "keyword"
+      },
+      "types": {
+        "type": "keyword"
+      }
+    }
+  }
+}

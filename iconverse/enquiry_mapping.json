@@ -1,0 +1,76 @@
+{
+  "enquiry": {
+    "properties": {
+      "enquiry_id": {
+        "type": "text",
+        "fielddata": true
+      },
+      "version": {
+        "type": "text",
+        "fielddata": true
+      },
+      "question": {
+        "type": "text",
+        "fielddata": true
+      },
+      "answer": {
+        "type": "text",
+        "fielddata": true
+      },
+      "author": {
+        "type": "keyword"
+      },
+      "area": {
+        "type": "text",
+        "fielddata": true
+      },
+      "topic": {
+        "type": "text",
+        "fielddata": true
+      },
+      "subtopic": {
+        "type": "text",
+        "fielddata": true
+      },
+      "status": {
+        "type": "keyword"
+      },
+      "state": {
+        "type": "text",
+        "fielddata": true
+      },
+      "created": {
+        "type": "date"
+      },
+      "modified": {
+        "type": "date"
+      },
+      "publication": {
+        "type": "date"
+      },
+      "enabled": {
+        "type": "boolean"
+      },
+      "comments": {
+        "type": "text",
+        "fielddata": true
+      },
+      "service": {
+        "type": "text",
+        "fielddata": true
+      },
+      "tags": {
+        "type": "nested",
+        "properties": {
+          "label": {
+            "type": "keyword"
+          },
+          "uri": {
+            "type": "keyword"
+          }
+        }
+      }
+    }
+  }
+}
+

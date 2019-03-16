@@ -1,0 +1,23 @@
+{
+  "element": {
+    "properties": {
+      "id": {
+        "type": "keyword"
+      },
+      "type": {
+        "type": "keyword"
+      },
+      "label": {
+        "type": "text",
+        "fielddata": true
+      },
+      "aliases": {
+        "type": "text",
+        "fielddata": true
+      },
+      "chains": {
+        "type": "text"
+      }
+    }
+  }
+}
