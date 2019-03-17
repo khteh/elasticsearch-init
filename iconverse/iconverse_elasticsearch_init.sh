@@ -36,8 +36,8 @@ echo "Initializing systems index . . . . "
 echo "Done"
 echo
 
-# fluentd
-echo "Initializing fluentd index . . . . "
-/opt/iconverse/elasticsearch_fluentd_init.sh
+# access logs
+echo "Initializing iconverse.access.logs index . . . . "
+/opt/iconverse/elasticsearch_access_logs_init.sh
 echo "Done"
 echo
