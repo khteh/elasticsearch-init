@@ -5,5 +5,5 @@ curl -XDELETE http://$host/enquiries --retry 10
 echo
 curl -XPUT http://$host/enquiries --retry 10
 echo
-curl -XPUT -H "Content-Type: application/json" --data @enquiry_mapping.json http://$host/enquiries/enquiry/_mapping --retry 10
+curl -XPUT -H "Content-Type: application/json" --data @resources/enquiry_mapping.json http://$host/enquiries/enquiry/_mapping --retry 10
 echo
