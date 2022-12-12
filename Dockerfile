@@ -1,4 +1,4 @@
-FROM ubuntu:21.04
+FROM ubuntu:22.10
 MAINTAINER Kok How, Teh <funcoolgeeek@gmail.com>
 RUN apt update -y --fix-missing
 RUN apt install -y curl
