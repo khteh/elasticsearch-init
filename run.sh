@@ -1,7 +1,8 @@
 #!/bin/bash
 set -x
 #ulimit -l unlimited
-host=kyberlife-es-default:9200
+#host=kyberlife-es-default:9200
+host=svc-elasticsearch:9200
 curl -s -XDELETE http://$host/kyberlifeiam.logs-* --retry 10
 echo
 curl -s -XDELETE http://$host/kyberlifeproduct.logs-* --retry 10
