@@ -1,7 +1,7 @@
 #!/bin/bash
 set -x
 #ulimit -l unlimited
-host=kyberlife-es-http:9200
+host=kyberlife-es-internal-http:9200
 curl -XDELETE http://$host/kyberlifeiam.logs-* --retry 10
 echo
 curl -XDELETE http://$host/kyberlifeproduct.logs-* --retry 10
