@@ -8,5 +8,5 @@ curl -XDELETE http://$host/kyberlifeproduct.logs-* --retry 10
 echo
 curl -XPUT -H "Content-Type: application/json" --data @/tmp/access_log_template.json -u elastic:$ELASTICSEARCH_PASSWORD -k https://$host/_template/access-log-template --retry 10
 echo
-curl -XGET -u elastic:$ELASTICSEARCH_PASSWORD -k https://$host/_template/access-log-template?pretty
+curl -u elastic:$ELASTICSEARCH_PASSWORD -k https://$host/_template/access-log-template?pretty
 echo
